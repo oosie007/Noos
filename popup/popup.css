@@ -1,0 +1,30 @@
+.container {
+    width: 300px;
+    padding: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #2eaadc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #2191bc;
+  }
+  
+  .status {
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+  }

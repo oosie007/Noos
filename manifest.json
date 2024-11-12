@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Notion Save Queue",
+    "version": "1.0",
+    "description": "Save websites to Notion with queue system",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "scripting",
+      "notifications",
+      "webNavigation"
+    ],
+    "host_permissions": [
+      "https://api.notion.com/*",
+      "https://www.notion.so/*"
+    ],
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+          "32": "icons/icon32.png",
+          "48": "icons/icon48.png",
+          "128": "icons/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "background/background.js"
+    }
+  }
+
+  

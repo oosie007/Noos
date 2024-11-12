@@ -1,0 +1,4 @@
+const config = {
+    NOTION_API_KEY: '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',
+    DATABASE_ID: '13428a1b08338026bf6ce092a74a1d61'
+};
